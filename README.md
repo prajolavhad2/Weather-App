@@ -1,16 +1,118 @@
-# React + Vite
+# 🌦️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Weather Application built using **React + Vite** that provides real-time weather updates for any city.
 
-Currently, two official plugins are available:
+🔗 **GitHub Repo:** https://github.com/prajolavhad2/Weather-App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🌍 Search weather by city name
+* 🌡️ Real-time temperature updates
+* 💧 Humidity and weather conditions
+* 🌬️ Wind speed details
+* 📱 Responsive UI for all devices
+* ⚡ Fast performance using Vite
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js, HTML, CSS
+* **Build Tool:** Vite
+* **API:** OpenWeatherMap API (or similar)
+* **Version Control:** Git & GitHub
+
+---
+
+## 📁 Project Structure
+
+Weather-App/
+│── public/
+│── src/
+│── .gitignore
+│── index.html
+│── package.json
+│── package-lock.json
+│── vite.config.js
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the repository
+
+git clone https://github.com/prajolavhad2/Weather-App.git
+
+### 2️⃣ Navigate to project folder
+
+cd Weather-App
+
+### 3️⃣ Install dependencies
+
+npm install
+
+### 4️⃣ Run the app
+
+npm run dev
+
+---
+
+## 🔑 Environment Variables
+
+If your app uses an API key:
+
+Create a `.env` file in root directory and add:
+
+VITE_API_KEY=your_api_key_here
+
+---
+
+## 📸 Screenshots
+
+(Add your screenshots here)
+
+Example:
+
+![App Screenshot](./screenshots/demo.png)
+
+---
+
+## 📌 Future Improvements
+
+* 📅 5-day weather forecast
+* 📍 Current location weather (GPS)
+* 🌙 Dark mode support
+* 📊 Weather charts & graphs
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Push to your branch
+5. Create a Pull Request
+
+---
+
+## 📄 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+**Prajol Avhad**
+GitHub: https://github.com/prajolavhad2
+
+---
+
+⭐ If you like this project, give it a star!
